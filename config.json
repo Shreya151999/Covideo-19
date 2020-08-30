@@ -1,0 +1,14 @@
+{
+	"maxAbsences": 70,
+	"border": 15,
+	"min_score": {"Faster_RCNN":0.95, "SSD_lite":0.5},
+	"categories": ["Without Mask", "With Mask"],
+	"colors": [
+		[0, 255, 0],
+		[255, 255, 0]
+	],
+	"models_path": "models",
+	"default_model": "Faster_RCNN",
+	"show_scores":1,
+        "show_IDs":1
+}
